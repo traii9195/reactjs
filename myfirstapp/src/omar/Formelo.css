@@ -1,0 +1,20 @@
+.y {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+padding: 50px 255px;
+
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.x {
+background-image: linear-gradient(rgba(78,108,132),white);
+}
