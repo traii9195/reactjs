@@ -1,11 +1,15 @@
 import React from "react";
+{/* l appele de nos images  */}
+
 import image1 from "../Assets/1.jpg";
 import image2 from "../Assets/2.jpg";
 import image3 from "../Assets/3.png";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from 'react-bootstrap/Carousel'; 
 
 function Headerr ( ) {
 return (<>
+        {/* l appele de carousel from bootstrap */}
+
  <Carousel>
       <Carousel.Item>
         <img
