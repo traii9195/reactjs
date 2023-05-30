@@ -1,7 +1,13 @@
 import React from "react" ;
+{/* importaion de nos composants bootstrap */}
+
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+{/* importation de notre fichier stylesheet */}
+
 import './Formelo.css';
+{/* fonction Formelo*/}
+
 function Formelo () {
     return (
         <>
@@ -15,6 +21,7 @@ function Formelo () {
           We'll never share your email with anyone else.
         </Form.Text>
       </Form.Group>
+{/* creation de fomulaire à l aide de composant form de bootstrap */}
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
@@ -25,6 +32,8 @@ function Formelo () {
       </Form.Group>
       </div>
       <div className="btn">
+          {/* creation de button à l aide de composant bootstrap button  */}
+
       <Button variant="primary" type="submit">
         Submit
       </Button>
